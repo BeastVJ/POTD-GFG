@@ -21,12 +21,13 @@ class GFG {
 class Solution {
     static int firstElement(int n) {
         // code here
-        int a=1,b=0;
-        for(int i=2;i<=n;i++){
-            int temp=a;
-            a=(a+b)%1000000007;
-            b=temp;
+        if(n==1 || n==2)return 1; // 
+        int a=1,b=1,ans=0, mod=1000000007;
+        for(int i=3; i<=n; i++){
+            ans=(a+b)%mod;
+            a=b;
+            b=ans;
         }
-        return a%1000000007;
+        return ans;
     }
 }
