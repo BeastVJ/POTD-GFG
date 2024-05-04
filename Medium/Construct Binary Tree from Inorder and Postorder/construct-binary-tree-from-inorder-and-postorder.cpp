@@ -45,7 +45,6 @@ struct Node
         left = right = NULL;
     }
 };*/
-
 class Solution {
 public:
     // Recursive function to construct a binary tree from inorder and postorder traversals
