@@ -4,6 +4,7 @@ using namespace std;
 
 // } Driver Code Ends
 
+
 class Solution {
 public:
     long long int PowMod(long long int x, long long int n, long long int M) {
@@ -22,8 +23,6 @@ public:
         return ans;
     }
 };
-		
-		
 
 //{ Driver Code Starts.
 int main(){
