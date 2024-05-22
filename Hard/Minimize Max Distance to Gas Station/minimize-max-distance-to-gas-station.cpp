@@ -4,6 +4,7 @@ using namespace std;
 
 
 // } Driver Code Ends
+
 class Solution {
   public:
       int check(vector<int> &stations, double x, int n){
@@ -39,6 +40,7 @@ class Solution {
         return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 int main() {
