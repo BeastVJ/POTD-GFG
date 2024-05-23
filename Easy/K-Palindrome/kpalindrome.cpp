@@ -9,7 +9,7 @@ using namespace std;
 
 class Solution{
 public:
-   int kPalindrome(string str1, int n, int k)
+    int kPalindrome(string str1, int n, int k)
     {
         vector<vector<int>> dp(n+1,vector<int>(n+1,0));
         string str2 = str1;
