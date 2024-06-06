@@ -5,7 +5,6 @@ using namespace std;
 
 // } Driver Code Ends
 /*You are required to complete this method*/
-
 class Solution {
   public:
      long long max_sum(int a[], int n) {
